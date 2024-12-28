@@ -1,0 +1,16 @@
+transformers==4.40.1
+keybert==0.8.5
+nltk==3.8.1
+googlesearch-python==1.2.5
+aiohttp==3.10.10
+scikit-learn==1.5.
+quart
+quart-cors
+aiohttp
+beautifulsoup4
+numpy
+langchain-cohere
+langchain-text-splitters
+langchain-community=
+langgraph
+asyncio
