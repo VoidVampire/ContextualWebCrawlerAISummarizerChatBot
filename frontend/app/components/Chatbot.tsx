@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from 'react'
 import { ChatMessage } from '@/lib/types'
-import { resetChatHistory } from '@/lib/api'
 interface ChatbotProps {
   isEnabled: boolean
 }

@@ -1,13 +1,11 @@
-import { Summary, RelatedArticle, ChatMessage } from './types'
-
-const API_BASE_URL = 'http://localhost:5000'  // Assuming Flask server runs on port 5000
+// const API_BASE_URL = 'http://localhost:5000'  // Assuming Flask server runs on port 5000
 
 
-export async function resetChatHistory(): Promise<void> {
-  await fetch(`${API_BASE_URL}/reset-chat`, {
-    method: 'POST',
-  })
-}
+// export async function resetChatHistory(): Promise<void> {
+//   await fetch(`${API_BASE_URL}/reset-chat`, {
+//     method: 'POST',
+//   })
+// }
 
 export async function processURL(
   url: string,
