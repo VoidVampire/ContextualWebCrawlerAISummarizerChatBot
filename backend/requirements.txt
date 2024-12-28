@@ -11,6 +11,6 @@ beautifulsoup4
 numpy
 langchain-cohere
 langchain-text-splitters
-langchain-community=
+langchain-community
 langgraph
 asyncio
