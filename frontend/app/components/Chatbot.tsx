@@ -54,15 +54,7 @@ export default function Chatbot({ isEnabled }: ChatbotProps) {
     }
   }
 
-  const handleReset = async () => {
-    setMessages([])
-    setInput('')
-    try {
-      await resetChatHistory()
-    } catch (error) {
-      console.error('Failed to reset chat history on the server:', error)
-    }
-  }
+  
 
   return (
     <div className="bg-black border border-zinc-800 shadow rounded-lg p-6 h-[calc(100vh-16rem)] flex flex-col">
